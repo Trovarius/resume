@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background-color: rgb(37, 37, 37);
+        font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #d7cfbe;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #e8e8e8;
+    }
+
+    .resume {
+    }
+
+    .header, .content {
+        display: flex;
+        margin: 1% 1%;
+    }
+
+    .header {
+        border-bottom: solid 1px #fff
+    }
+
+    .header .contacts{
+        text-align: left;
+    }
+    
+    .header .name{
+        flex-grow: 12;
+    }
+
+    .content {
+        height: 100%;
+    }
+
+    .content section {
+        flex: 33%;
+        height: 100%;
+    }
+
+     .content section h3 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .content .experiences  section{
+        margin: 2%;
+        padding: 2%;
+        border-bottom: solid 1px #fff
+    }
+    dl {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    /* width: 300px;      set the container width */
+    overflow: visible;
+    }
+    dl dt {
+    flex: 0 0 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 2px;
+    }
+    
+    dl dt a {
+    padding: 10px;
+    }
+
+    dl.inline-flex {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin: 5%;
+  overflow: visible;
+}
+dl.inline-flex dt {
+  flex: 0 0 50%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 35px
+}
+
+dl.inline-flex dd {
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+    
+</style>
+<body>
+    <div class='resume'>
+    <section class="header">
+            <H1 class="name">Luiz Fernando de Lima Pereira</H1>
+        
+        <div class="contacts">
+            <dl clas="inline-flex">
+                <dt><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">linkedin.com/rovarius</a></dt>
+                <dt><i class="fab fa-github"></i><a href="https://github.com/Trovarius">github.com/trovarius</a></dt>
+                <dt><i class="fas fa-phone-square"></i> <a href="tel:+55 11 95164-3848">+55 11 95164-3848</a></dt>
+            </dl>
+        </div>
+    </section>
+    <section class="content">
+        <section class="about">
+            <h3>About me</h3>
+            <div>
+            <p>Senior Software Developer with experience in .NET and Node platforms, using technology to build data-driven software. <p>
+                <br>
+            <p>For the past 3 years have been acting as tech lead for development´s teams. Some of my duties are to evolve an agile culture into the teams, to develop professionals, to be a technical reference for stakeholders and coworkers while acting as software architecture when needed.</p>
+            <br>
+            <p>I always have loved to learn and I believe it can be highly achieved by teaching, thus I´ve been part of a bunch of software communities not only as a member but also I´ve created my owns during university and later on inside I4PRO, where I found myself leading the innovation group of the company.</p>
+            <br>
+            <p>I see myself as an energetic, positive and proactive employee, never facing a problem without trying to help or being part of the solution.</p>
+            </div>
+
+            <h3>Hobbies</h3>
+            <div>
+
+            </div>
+        </section>
+        <section class="experiences">
+            <h3>Experiences</h3>
+            <section>
+                <h4>Minutrade -  06/2018</h4>
+                
+                <p>Working as a tech leader of a product-oriented team in expanding a microservice architecture build in NodeJS, MongoDB, Docker among other technologies. </p>
+                <br>
+                <p>My duties include software architecture of the product, keep backlog updated, guarantee quality in all deploy workflow and help the whole team in using agile techniques. </p>
+            </section>
+            <section>
+                <h4>I4PRO -  07/2011 - 04/2018 </h4>
+<p>
+                        Senior Full Stack .NET Developer in a system that translates SQL queries into Web views, providing agile development for insurance companies.
+                    </p>
+<br>
+<p>
+                        Later on, the same system was updated to a microservice architecture and was my team responsible to conduct this transformation from a monolith system to microservices, including implementing CI workflow, automation tests, and creating knowledge bases.
+                    </p>
+                  <br>  
+                  <p>    
+                        Also, I´ve personally started an innovation group inside the whole company with the goal of developer fellow coworkers in their careers, during this process I gave workshops and talks as well as invited others coworkers to perform presentations where we could share knowledge and discuss new approaches for the company. 
+                    </p>
+                
+            </section>
+            <section>
+                <h4>G4Solution -  09/2010 - 07/2011 </h4>
+                <p>
+                Full Stack .Net Developer in software designed for a TV Channel provide pieces of information about clothes and accessories used by their actors/actress. 
+            </p> <br>
+            <p>
+Customer service software for a huge gas company that was migrating the whole business model to online services.
+</p>
+<br>
+            </section>
+            <section>
+                <h4>ADF -  06/2018 - 08/2010 </h4>
+                <p>
+                        Developed CRM system aimed to help headhunters with their prospects. System stack was .NET, SQL Server, JQuery.
+                </p>
+            </section>
+        </section>
+        <section class="skills">
+                <h3>Skills</h3>
+            <dl class="inline-flex">
+                <dt>Javascript</dt>
+                <dd><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i></dd>
+                <dt>.NET / ASP.NET</dt>
+                <dd><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i></dd>
+                <dt>NodeJS</dt>
+                <dd><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i></dd>
+                <dt>SQL SERVER</dt>
+                <dd><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i></dd>
+                <dt>MongoDB</dt>
+                <dd><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i></dd>
+                <dt>Docker</dt>
+                <dd><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i></dd>
+                <dt>Agile</dt>
+                <dd><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i><i class="fas fa-coffee"></i></dd>
+            </dl>
+        </section>
+    </section>
+</div>
+</body>
+</html>
